@@ -1,0 +1,138 @@
+@media (min-width:360px) { 
+    * { 
+        margin: 0;
+    }
+
+    .menubotao { 
+        display: none;
+    }
+
+    nav li { 
+        list-style: none;
+    }
+
+    nav a { 
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu li { 
+        display: inline-block;
+        color: white;
+        justify-content: space-between;
+    }
+
+    nav { 
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header div { 
+        align-items: center;
+        justify-content: center;
+    }
+
+    header.home { 
+        min-height: 60vh;
+        height: 70vh;
+    }
+
+    header h1 { 
+        color: white;
+        padding: 20px;
+        font-size: 40px;
+    }
+    
+    footer { 
+        display: flex;
+    }
+}
+
+@media (min-width:768px) { 
+    .logo { 
+        width: 187px;
+        height: 53px;
+        padding-bottom: 5px;
+    }
+
+    .botao { 
+        padding: 7px;
+        background-color: #b288c8;
+        color: white;
+        margin: 10px;
+        display: inline-block;
+        text-decoration: none;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+    
+    nav li { 
+        padding: 5px;
+        color: white;
+        list-style-type: none;
+        align-items: center;
+        font-family: 'Roboto';
+        font-size: 15px;
+    }
+
+    nav > div { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+    }
+
+    nav a { 
+        text-decoration: none;
+        color: white;
+    }
+
+    .menubotao { 
+        display: none;
+    }
+
+    h1 { 
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 35px;
+        width: 300px;
+        padding-top: 10px;
+        text-shadow: 1px 1px black;
+    }
+
+    .home div { 
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+
+    .um p { 
+        font-size: 20px;
+    }
+
+    .dois > .botao { 
+        align-items: center;
+    }
+
+    .h2paginas { 
+        padding: 30px;
+    }
+
+    .bloco-perfil > div { 
+        display: flex;
+        max-width: 220px;
+    }
+
+    .perfisrecomendados img { 
+        
+    }
+}
+
+
+
